@@ -1,0 +1,170 @@
+body{
+    margin: 0px;
+    background-color: rgba(230, 228, 228, 0.849);
+    font-family: 'Nerko One', cursive;
+}
+.page-nav{
+    background-color: #ffffff;
+    border: 1px solid black;
+}
+.page-nave h1{
+    margin: 20px;
+}
+.page-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+header {
+	width:100%;
+	background:#252932;
+	margin-bottom:20px;
+}
+.wrapper {
+	width:90%;
+	max-width:100%;
+	margin:auto;
+	overflow:hidden;
+    height: 100px;
+}
+.logo {
+	color:rgb(134, 197, 240);
+	font-size:50px;
+	line-height:130px;
+	float:left;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+}
+#cont-menu{
+    width: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 1300px;
+    padding-top: 18px;
+}
+ul, ol{
+    list-style: none;
+}
+.nav > li{
+    float: left;
+}
+.nav li a{
+    background-color: rgb(153, 194, 228);
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px 17px;
+    display: block;
+    font-weight:bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+    border-radius:50px;
+}
+.nav li a:hover{
+    background-color: rgb(134, 197, 240);
+    border-radius:50px;
+}
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover > ul{
+    display: block;
+}
+.nav li ul li{
+    position: relative;
+}
+.nav li ul li ul{
+    top: 0px;
+}
+p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    background: #01417e;
+    padding: 8px;
+    border-radius: .7rem!important;
+    margin-right: 65px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.class{
+    position: absolute;
+    top: 50%;
+    margin-left: 50px;
+    margin-top: 17px;
+    z-index: 1;
+    color: #4f5b66;
+}
+.search{
+    margin-top: -90px;
+    margin-left: 70%;
+}
+#search{
+    width: 350px;
+    padding-bottom: 10px;
+    text-align: left;
+    padding-top: 10px;
+}
+.content-nav{
+    background-color: rgb(179, 179, 179);
+    height: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.logo2{
+    padding-top: 10px;
+    margin-left: 93px;
+    font-size: 50px;
+    margin-top: -20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+header nav a:hover {
+	background:#f56f3a;
+	border-radius:50px;
+}
+.product-container{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 260px;
+    margin: 15px;
+    padding: 2px 16px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    border: solid 1px black;
+}
+.text1{
+    color: white;
+    text-align: center;
+    background-color:black;
+    margin: 0px;
+    margin-right: -13px;
+    margin-left: -13px;
+}
+.product-container:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.product-container img{
+    width: 260px;
+}
+.product-container h1{
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+.button-add{
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 7px 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    transition-duration: 0.4s;
+    right: 15px;
+    bottom: 10px;
+    margin-left: 82px;
+}
+.button-add:hover{
+    background-color: rgb(134, 197, 240); /* Green */
+    color: white;
+}
