@@ -1,45 +1,49 @@
 body{
-    margin: 0px;
     background-color: rgba(230, 228, 228, 0.849);
     font-family: 'Nerko One', cursive;
 }
-.page-nav{
-    background-color: #ffffff;
-    border: 1px solid black;
-}
-.page-nave h1{
-    margin: 20px;
-}
 .page-content{
+    float: left;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    border-top: red solid 2px;
 }
-header {
-	width:100%;
-	background:#252932;
-	margin-bottom:20px;
+#logo {
+	width: 160px;
+    height: 130px;
+    float: left;
 }
-.wrapper {
-	width:90%;
-	max-width:100%;
-	margin:auto;
-	overflow:hidden;
-    height: 100px;
+h1 {
+    color: blue;
+    font-family: "fonts";
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    font-size: 70px;
 }
-.logo {
-	color:rgb(134, 197, 240);
-	font-size:50px;
-	line-height:130px;
-	float:left;
-    position: absolute;
-    font-family: 'Times New Roman', Times, serif;
+@font-face{
+    font-family: "fonts";
+    src: url("fonts/cs_regular.ttf");
 }
-#cont-menu{
-    width: 400px;
-    font-family: 'Times New Roman', Times, serif;
-    margin-left: 1300px;
-    padding-top: 18px;
+h1 {
+    color: blue;
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    font-size: 70px;
+    padding: 15px;
+}
+h1 {
+    display: block;
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: -30px;
+}
+#menu{
+    width: 1500px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    top: 5em; 
+    left: 20em;
 }
 ul, ol{
     list-style: none;
@@ -48,21 +52,14 @@ ul, ol{
     float: left;
 }
 .nav li a{
-    background-color: rgb(153, 194, 228);
+    background-color: #E5E5E5;
     color: black;
-    font-size: 20px;
     text-decoration: none;
-    padding: 15px 17px;
+    padding: 10px 12px;
     display: block;
-    font-weight:bold;
-	-webkit-transition:all 500ms ease;
-	-o-transition:all 500ms ease;
-	transition:all 500ms ease;
-    border-radius:50px;
 }
 .nav li a:hover{
-    background-color: rgb(134, 197, 240);
-    border-radius:50px;
+    background-color: skyblue;
 }
 .nav li ul{
     display: none;
@@ -75,8 +72,11 @@ ul, ol{
 .nav li ul li{
     position: relative;
 }
-.nav li ul li ul{
-    top: 0px;
+#cont-menu{
+    width: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 1300px;
+    padding-top: 18px;
 }
 p{
     font-size: 20px;
@@ -167,4 +167,14 @@ header nav a:hover {
 .button-add:hover{
     background-color: rgb(134, 197, 240); /* Green */
     color: white;
+}
+.fot{
+    margin: auto;
+    width: 1800px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+}
+.copy{
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
 }
