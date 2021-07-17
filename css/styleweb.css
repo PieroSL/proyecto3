@@ -1,180 +1,294 @@
-body{
+body {
     background-color: rgba(230, 228, 228, 0.849);
-    font-family: 'Nerko One', cursive;
-}
-.page-content{
-    float: left;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    border-top: red solid 2px;
-}
-#logo {
-	width: 160px;
-    height: 130px;
-    float: left;
 }
 h1 {
-    color: blue;
-    font-family: "fonts";
     text-align: center;
-    text-shadow: 0.1em 0.1em 0.2em black;
-    font-size: 70px;
+    color: white;
+    font-family: "fonts";
+    position: relative;
+    margin-top: 10px;
+
 }
 @font-face{
     font-family: "fonts";
     src: url("fonts/cs_regular.ttf");
 }
-h1 {
-    color: blue;
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+header {
+    font-size: 1.5em;
+    padding: 20px 0 0 0;
+    background: #1d2124;
     text-align: center;
-    text-shadow: 0.1em 0.1em 0.2em black;
-    font-size: 70px;
-    padding: 15px;
-}
-h1 {
-    display: block;
-    font-size: 4em;
-    font-weight: bold;
-    margin-bottom: -30px;
-}
-#menu{
-    width: 1500px;
-    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    position: fixed;
+    word-wrap: break-word;
     margin: auto;
-    top: 5em; 
-    left: 20em;
 }
-ul, ol{
+
+@media (min-width : 750px) {
+    header {
+        text-align: left;
+    }
+}
+.navegacion{
+	width: auto;
+	margin: auto;
+	background: rgb(255, 255, 255);
+    height: 50px;
+    text-align: center;
+    margin-top: -15px;
+}
+.menu1{
+    color: white;
+    font-weight: bold;
+}
+.navegacion ul{
+	list-style: none;
+}
+
+.menu1 > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu1 > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #000000;
+	font-family: 'Open sans';
+	text-decoration: none;
+    font-weight: bold;
+}
+
+.menu1 li a:hover{
+	color: #fbaf32;
+	transition: all .3s;
+}
+
+.submenu1{
+	position: absolute;
+	background: #333333;
+	width: 100%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+
+.submenu1 li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu1 li:hover .submenu1{
+	visibility: visible;
+	opacity: 1;
+    position: absolute;
+    color: #fff;
+}
+
+@media (min-width: 500px) {
+    .barraPrincipal {
+    padding: 0; }
+  }
+.barraPrincipal{
+    float: left;
+    margin: auto;
+    font-size: 13px;
+    margin-top: 3px;
+}
+.borrar-platilo {
+    background-color: #fbaf32;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color:rgb(71, 71, 71);
+
+}
+
+ul {
     list-style: none;
 }
-.nav > li{
-    float: left;
+
+.hero {
+    background-image: url(../img/hero.jpg);
+    height: 551px;
 }
-.nav li a{
-    background-color: #E5E5E5;
-    color: black;
-    text-decoration: none;
-    padding: 10px 12px;
-    display: block;
+.encabezado {
+    margin: 30px 0;
+    color: white;
 }
-.nav li a:hover{
-    background-color: skyblue;
-}
-.nav li ul{
-    display: none;
-    position: absolute;
-    min-width: 140px;
-}
-.nav li:hover > ul{
-    display: block;
-}
-.nav li ul li{
+.submenu {
     position: relative;
 }
-#cont-menu{
-    width: 400px;
-    font-family: 'Times New Roman', Times, serif;
-    margin-left: 1300px;
-    padding-top: 18px;
+.submenu #carrito{
+    display: none;
+    margin-right: 10%;
 }
-p{
-    font-size: 20px;
-    font-weight: 500;
-    color: #fff;
-    background: #01417e;
-    padding: 8px;
-    border-radius: .7rem!important;
-    margin-right: 65px;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 10px;
-}
-.class{
+.submenu:hover #carrito{
+    display: block;
+    color: white;
     position: absolute;
-    top: 50%;
-    margin-left: 50px;
-    margin-top: 17px;
+    right: 0;
+    top: 100%;
     z-index: 1;
-    color: #4f5b66;
+    background: #17181b;
+    padding: 20px;
 }
-.search{
-    margin-top: -90px;
-    margin-left: 70%;
-}
-#search{
-    width: 350px;
-    padding-bottom: 10px;
-    text-align: left;
-    padding-top: 10px;
-}
-.content-nav{
-    background-color: rgb(179, 179, 179);
-    height: 80px;
-    font-family: 'Times New Roman', Times, serif;
-}
-.logo2{
-    padding-top: 10px;
-    margin-left: 93px;
-    font-size: 50px;
-    margin-top: -20px;
-    font-family: 'Times New Roman', Times, serif;
-}
-header nav a:hover {
-	background:#f56f3a;
-	border-radius:50px;
-}
-.product-container{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: 260px;
-    margin: 15px;
-    padding: 2px 16px;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
-    border: solid 1px black;
-}
-.text1{
-    color: white;
+.vacio {
+    padding: 10px;
+    background-color: #fbaf32;
     text-align: center;
-    background-color:black;
-    margin: 0px;
-    margin-right: -13px;
-    margin-left: -13px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
 }
-.product-container:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+.button {
+    color: rgb(255, 255, 255);
 }
-.product-container img{
-    width: 260px;
+.barra {
+    padding: 20px 0;
+    background: #fbaf32;
+    background: -webkit-linear-gradient(left, #b95a00 0%,#ad5400 100% );
 }
-.product-container h1{
+.barra p {
+    margin: 0;
+    color: white;
+}
+.icono {
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 60px;
+    background-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+@media (min-width: 750px) {
+    .icono {
+        margin-bottom: 0;
+    }
+}
+
+.icono1 {
+    background-image: url(../img/icono1.png);
+}
+.icono2 {
+    background-image: url(../img/icono2.png);
+}
+.icono3 {
+    background-image: url(../img/icono3.png);
+}
+#lista-productos{
+    padding-top: 130px;
+}
+#lista-productos .row {
+    margin-bottom: 20px;
+}
+.agregar-carrito{
+    margin: 10px 0;
+}
+.card {
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: #1d2124;
+}
+@media (min-width:550px){
+    .card {
+        text-align: left;
+    }
+}
+.info-card {
+    padding: 10px 20px;
+    color: white;
+}
+.info-card p,
+.card h4 {
+    margin-bottom: 5px;
+}
+.info-card .precio {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.info-card .precio span {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.footer {
+    font-size: 1.5em;
+    margin-top: 40px;
+    background: #1d2124;
+}
+
+.footer .menu a {
+    display: block;
     margin-bottom: 10px;
-    margin-left: 15px;
-}
-.button-add{
-    font-size: 16px;
-    text-align: center;
-    border-radius: 8px;
-    padding: 7px 20px;
-    background-color: white;
-    color: black;
-    border: 2px solid black;
-    transition-duration: 0.4s;
-    right: 15px;
-    bottom: 10px;
-    margin-left: 82px;
-}
-.button-add:hover{
-    background-color: rgb(134, 197, 240); /* Green */
-    color: white;
+    text-decoration: none;
 }
 .fot{
     margin: auto;
-    width: 1800px;
     font-family: Arial, Helvetica, sans-serif;
-    float: left;
+    text-align: center;
+    line-height: 2.0em;
+    color: white;
+    background-color: #1d2124;
+
 }
 .copy{
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-top: 1px solid white;
+    line-height: 1.5em;
+    color: white;
+    background-color: #1d2124;
+}
+.td1{
+    text-align: center;
+}
+.buscador{
+    padding: 5px;
+    position: relative;
     float: left;
+    margin-left: 30px;
+}
+
+.buscador input{
+    width: 0px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: black;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 30px;
+    transition: all 0.6s ease;
+}
+
+.btn0{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: #004680;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.buscador:hover input{
+    width: 210px;
+}
+.buscador input:focus{
+    width: 210px;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
 }
