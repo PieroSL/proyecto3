@@ -31,6 +31,7 @@ submitBtn.addEventListener('click', ()=>{
     <img src="imagenes/persona.jpg" class="avatar">
     </div>`;
 
+    
     chatArea.insertAdjacentHTML("beforeend", temp);
     inputElm.value = '';
 })
