@@ -9,7 +9,7 @@ const picker = new EmojiButton();
 window.addEventListener('DOMContentLoaded', () => {
 
     picker.on('emoji', emoji => {
-      document.querySelector('input').value += emoji;
+      document.querySelector('.input2').value += emoji;
     });
   
     emojiBtn.addEventListener('click', () => {
