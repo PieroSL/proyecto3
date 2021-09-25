@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+    --main-color: #0089e4;
+    --second-color: #404145;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    position: relative;
+    background: url(fondo6.png);
+    background-size: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 200px;
+}
+header h2{
+    font-size: 50px;
+    color: white;
+    background-image: url(https://media.giphy.com/media/26BRvIYDe4ILO60Ni/source.gif);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    font-weight: 900;
+    
+}
+header{
+    height: auto;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    box-sizing: border-box;
+    height: 100px;
+    transition: 0.5s;
+}
+
+.logo{
+    height: 60%;
+}
+
+.scrolled-search{
+    opacity: 1;
+    pointer-events: all;
+}
+
+.main-menu{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item{
+    margin: 0 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #f2f2f2;
+}
+
+.cta{
+    padding: 10px 24px;
+    border-radius: 30px;
+    background-color: var(--main-color);
+    color: #f2f2f2;
+    margin: 0 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.cta:hover{
+    color: #f2f2f2;
+    background-color: #04548a;
+}
+
+.menu-item:hover{
+    color: var(--main-color);
+}
+
+
+.product-grid-container{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.product-container{
+    width: 250px;
+    background: linear-gradient(150deg, #171717, black, black, black);
+    border-radius: 20px;
+    box-shadow: 0px 8px 22px rgba(0,0,0,0.5);
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.product-image-wrapper{
+    width: 100%;
+    overflow: hidden;
+}
+
+.product-image{
+    width: 250px;
+    height: 320px;
+}
+
+
+
+.product-info-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    
+}
+
+.product-title{
+    font-size: 20px;
+    margin: 5px 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.product-price{
+    font-size: 20px;
+    color: #FFD500;
+}
+.add-to-cart{
+    height: 4.4vh;
+    width: 100%;
+    margin-top: auto;
+    background: linear-gradient(-40deg, #04548a, #5A4C05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+    cursor: pointer;
+}
+.cart{
+    height: 60%;
+    margin-right: 0.5rem;
+}
+
+.add-title{
+    text-transform: uppercase;
+}
+.add-title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+
+footer{
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 2rem ;
+    background-color: rgb(18, 18, 18);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.social-icons-container, .footer-menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.social-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid #f2f2f2;
+    background-image: url(FacebookBlanco.png);
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin:1rem;
+}
+
+.social-icon:hover{
+    background-color: rgb(18, 18, 18);
+    filter: invert(1);
+}
+
+.social-icon:nth-of-type(2){
+    background-image: url(InstagramBlanco.png);
+}
+.social-icon:nth-of-type(3){
+    background-image: url(TwitterBlanco.png);
+}
+.social-icon:nth-of-type(4){
+    background-image: url(LinkedinBlanco.png);
+}
+
+
+.footer-menu-container{
+    list-style-type: none;
+    color: #f2f2f2;
+    font-size: 18px;
+}
+
+.menu-item{
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.menu-item:hover{
+    opacity: 1;
+}
+
+.copyright{
+    color: #f2f2f2;
+    opacity: 0.3;
+    text-align: center;
+}
+a{
+    list-style: none;
+}
+
+@media (max-width: 952px){
+    .enlace{
+        padding-left: 20px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    li a:hover, li a.active{
+        background: none;
+        color: red;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+}
