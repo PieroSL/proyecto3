@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    font-family: 'Staatliches', cursive;
+    margin: auto;
+    font-size: 25px;
+    text-align: center;
+    overflow: hidden;
+}
+
+header nav{
+
+    font-size: 50px;
+    padding: 30px 50px;
+}
+
+header nav a{
+    padding: 30px 50px;
+    background-color: black;
+    color: #2F0EB3;
+    text-decoration: none;
+}
+.slogan{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    height: 350px;
+}
+.logo{
+
+    font-family: 'Jockey One', sans-serif;
+    font-size: 140px;
+    color:#BFCFD9;
+    text-shadow: rgb(255, 255, 255) 3px 3px ;
+    margin-bottom: 30px;
+
+}
+.texto{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #BFCFD9;
+}
+.registro{
+    font-family:'Staatliches', cursive ;
+    background-color:#2F0EB3 ;
+    color: #BFCFD9;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    bottom: 10px;
+    right: 50px;
+}
+header nav a:hover{
+    border-radius: 30px;
+    background-color: rgba(137, 43, 226, 0.281);
+
+}

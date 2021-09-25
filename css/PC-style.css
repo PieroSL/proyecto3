@@ -1,0 +1,212 @@
+body {
+    margin: 0px;
+    background-color: aliceblue;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.button-add{
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 20px ;
+}
+
+.page-nav{
+    background-color: #181414 ;
+    border: 1px solid black;
+    position: relative;
+}
+
+.page-nav h1 {
+    margin: 20px;
+}
+
+.button-checkout {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+
+.button-checkout:hover {
+    background-color: #00BCBA;
+    color: white;
+}
+
+.page-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.product-container{
+    margin: 15px;
+    padding: 2px 16px;
+    position: relative;
+    box-shadow: 0 4px 16px 0 black;
+    background-color: white;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
+  }
+
+.product-container img{
+    width: 300px;
+}
+
+.product-container h1 {
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.button-add{
+
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; 
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+
+.button-add:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+.santi{
+    height: 415px;
+}
+#menu{
+    width: 100%;
+    position: absolute;
+    top:-10px;
+    font-size: 20px; 
+
+}
+.menu1 > li {
+    float: left;
+}
+.menu1 li a{
+
+    color: rgb(88, 81, 81);
+    text-decoration: none;
+    display: block;
+}
+
+ul{
+    list-style: none;
+}
+#h6{
+    font-family: 'Jockey One', sans-serif;
+    color: white;
+    text-shadow: black 5px 5px 15px;
+    font-size: 30px;
+    background-image: url(https://media.giphy.com/media/26BRvIYDe4ILO60Ni/source.gif);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.menu-item:hover{
+    color: var(--main-color);
+}
+.menu-item{
+    margin: 0 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #f2f2f2;
+}
+.menu1{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+.menu-item{
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.menu-item:hover{
+    opacity: 1;
+}
+.cta{
+    padding: 10px 24px;
+    border-radius: 30px;
+    background-color: var(--main-color);
+    color: #f2f2f2;
+    margin: 0 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.cta:hover{
+    color: #f2f2f2;
+    background-color: #04548a;
+}
+
+footer{
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 2rem ;
+    background-color: rgb(18, 18, 18);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.social-icons-container, .footer-menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.social-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid #f2f2f2;
+    background-image: url(FacebookBlanco.png);
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin:1rem;
+}
+.social-icon:hover{
+    background-color: rgb(18, 18, 18);
+    filter: invert(1);
+}
+.footer-menu-container{
+    list-style-type: none;
+    color: #f2f2f2;
+    font-size: 18px;
+}
+.menu-item{
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.menu-item:hover{
+    opacity: 1;
+}
+
+.copyright{
+    color: #f2f2f2;
+    opacity: 0.3;
+    text-align: center;
+}
+.main-menu li a{
+    text-decoration: none;
+    color:#f2f2f2;
+}

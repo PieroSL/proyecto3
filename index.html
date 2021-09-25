@@ -2,235 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Case</title>
-    <script src="https://kit.fontawesome.com/500c10f002.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/cuerpo.css">
-    <link rel="stylesheet" href="css/styleweb.css">
+    <title>INICIO</title>
+    <link rel="stylesheet" href="Css/chatbot-style.css" type="text/CSS">
+    <link rel="stylesheet" href="Css/index-style.css" type="text/CSS">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jockey+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header class="header twelve columns">
-        <div class="container1">
-            <div class="row">
-                <div class="four columns">
-                    <h1>Century-Computers</h1>
-                </div>
-                <div class="barraPrincipal">
-                    <nav class="navegacion">
-			            <ul class="menu1">
-                            <li><a href="https://julio704.github.io/centurys.github/">Inicio</a></li>
-                            <li><a href="https://adrianfasa.github.io/procesadores/index.html">Procesadores</a></li>
-                            <li><a href="https://adrianfasa.github.io/ram/">RAM</a></li>
-                            <li><a href="https://pierosl.github.io/proyecto3/">Case</a></li>
-                            <li><a href="https://miguel05hb.github.io/Tarjetas-De-Video/">Tarjeta de Video</a></li>
-                            <li><a href="https://adrianfasa.github.io/placabase/">Placa Base</a></li>
-                            <li><a href="https://adrianfasa.github.io/monitores/">Monitores</a></li>
-                            <li><a href="https://jhancarlos18.github.io/PaginawebDIVs/index.html">Perifericos</a></li>
-			            </ul>
-		            </nav>
-                </div>
-                <div class="buscador ">
-                    <input type="text" placeholder="Buscar" required>
-                    <div class="btn0">
-                        <i class="fas fa-search"></i>
-                    </div>
-                </div>
-                <div class="two columns u-pull-right">
-                    <ul>
-                        <li class="submenu">
-                            <img src="img/cart.png" alt="" class="cart">
-                            <div id="carrito">
-                               
-                                <table id="lista-carrito" class="u-full-width">
-                                    <thead>
-                                        <tr>
-                                            <th>Imagen</th>
-                                            <th>Código</th>
-                                            <th>Precio</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-
-                                    </tbody>
-                                </table>
-                                <a href="#" id="vaciar-carrito" class="button u-full-width">vaciar carrito</a>
-                                <a href="#" id="procesar-compra" class="button u-full-width">procesar compra</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+<body style="background-image: url(imagenes/gif.gif);background-size: 100%;">
+    <header>
+        <nav>
+            <a href="PC.html">PC</a>
+            <a href="XBOX.html">Xbox360/XboxSeriesX</a>
+            <a href="PS4PS5.html">PS4/PS5</a>
+            <a href="Reclamaciones.html">Reclamaciones</a>
+        </nav>
     </header>
-    <div id="lista-productos" class="container">
-        <div class="row">
-            <div class="four columns">
-                <div class="card">
-                    <img src="img/X49X0BMLGHHBUEV161928545890DC00B0-B30000-1.jpg" class="imagen-producto u-full-width">
-                    <div class="info-card">
-                        <h4>Case Asus Rog Z11 Mini-ITX S/ FUENTE | NEGRO</h4>
-                        <h4 class="cod1">(90DC00B0-B30000)</h4>  
-                        <h5>$<span class="precio">296</span></h5>
-                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
-                    </div>
-                </div>
-            </div>
-            <div class="four columns">
-                <div class="card">
-                    <img src="img/case2.jpg" class="imagen-producto u-full-width">
-                    <div class="info-card">
-                        <h4>Case Cooler Master Mastercase H500M S/ FUENTE | GRIS</h4>
-                        <h4 class="cod1">(MCM-H500M-IHNN-S00)</h4>                      
-                        <h5>$<span class="precio">264</span></h5>
-                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar al carrito</a>
-                    </div>
-                </div>
-            </div>
-            <div class="four columns">
-                <div class="card">
-                    <img src="img/case3.jpg" class="imagen-producto u-full-width">
-                    <div class="info-card">
-                        <h4>Case Corsair Spec-Omega RGB  | BLANCO | 1 PANEL VIDRIO</h4>
-                        <h4 class="cod1">(CC-9011141-WW)</h4>
-                        <h5>$<span class="precio">175</span></h5>
-                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar al carrito</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="four columns">
-                <div class="card">
-                    <img src="img/case4.jpg" class="imagen-producto u-full-width">
-                    <div class="info-card">
-                        <h4>Case Msi Mpg Sekira 100R S/ FUENTE | NEGRO</h4>
-                        <h4 class="cod1">(MPG SEKIRA 100R)</h4>
-                        <h5>$<span class="precio">156</span></h5>
-                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar al carrito</a>
-                    </div>
-                </div>
-            </div>
-            <div class="four columns">
-                <div class="card">
-                    <img src="img/case5.jpg" class="imagen-producto u-full-width">
-                    <div class="info-card">
-                        <h4>Case Cougar Dark Blader S/ FUENTE | NEGRO | 2 PANEL </h4>
-                        <h4 class="cod1">(3858M30.0001)</h4>
-                        <h5>$<span class="precio">143</span></h5>
-                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar al carrito</a>
-                    </div>
-                </div>
-            </div>
-            <div class="four columns">
-                <div class="card">
-                    <img src="img/case7.jpg" class="imagen-producto u-full-width">
-                    <div class="info-card">
-                        <h4>Case Corsair SPEC-04 NEGRO | 1 PANEL VIDRIO | LED- ROJO</h4>
-                        <h4 class="cod1">( CC-9011117-WW )</h4>
-                        <h5>$<span class="precio">72</span></h5>
-                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar al carrito</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="four columns">
-                <div class="card">
-                    <img src="img/case8.jpg" class="imagen-producto u-full-width">
-                    <div class="info-card">
-                        <h4>Case Gambyte Samus NEGRO | 1 PANEL VIDRIO | LED- RGB</h4>
-                        <h4 class="cod1">( GTC80308A )</h4>
-                        <h5>$<span class="precio">109</span></h5>
-                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="7">Agregar al carrito</a>
-                    </div>
-                </div>
-            </div>
-            <div class="four columns">
-                <div class="card">
-                    <img src="img/case9.jpg" class="imagen-producto u-full-width">
-                    <div class="info-card">
-                        <h4>Case Aerocool GT ADVANCE 450W | NEGRO | LED- ROJO</h4>
-                        <h4 class="cod1">( 2210-17090105 )</h4>
-                        <h5>$<span class="precio">62</span></h5>
-                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="8">Agregar al carrito</a>
-                    </div>
-                </div>
-            </div>
-            <div class="four columns">
-                <div class="card">
-                    <img src="img/case10.jpg" class="imagen-producto u-full-width">
-                    <div class="info-card">
-                        <h4>Case Corsair Carbide Series 275R NEGRO | 1 PANEL ACRILICO</h4>
-                        <h4 class="cod1">( CC-9011130-WW )</h4>
-                        <h5>$<span class="precio">85</span></h5>
-                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="9">Agregar al carrito</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="four columns">
-                <div class="card">
-                    <img src="img/case11.jpg" class="imagen-producto u-full-width">
-                    <div class="info-card">
-                        <h4>Case Gambyte Navi NEGRO | 1 PANEL ACRILICO</h4>
-                        <h4 class="cod1">( GTA80818A )</h4>
-                        <h5>$<span class="precio">67</span></h5>
-                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="10">Agregar al carrito</a>
-                    </div>
-                </div>
-            </div>
-            <div class="four columns">
-                <div class="card">
-                    <img src="img/case12.jpg" class="imagen-producto u-full-width">
-                    <div class="info-card">
-                        <h4>Case Gambyte Ryven NEGRO | 1 PANEL VIDRIO | LED- RGB</h4>
-                        <h4 class="cod1">( GTA80818A )</h4>
-                        <h5>$<span class="precio">92</span></h5>
-                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="11">Agregar al carrito</a>
-                    </div>
-                </div>
-            </div>
-            <div class="four columns">
-                <div class="card">
-                    <img src="img/case13.jpg" class="imagen-producto u-full-width">
-                    <div class="info-card">
-                        <h4>Case Halion SPARTA 848 450W | 1 PANEL VIDRIO | LED -RGB</h4>
-                        <h4 class="cod1">( SPARTA 848 )</h4>
-                        <h5>$<span class="precio">69</span></h5>
-                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="12">Agregar al carrito</a>
-                    </div>
-                </div>
-            </div>
-        </div>    
+    <div class="slogan">
+        <h1 class="logo">GAME4U</h1>
+        <P class="texto">JUEGA & DESCUBRE</P>
+        <P class="texto">Aqui es donde empieza tu aventura</P>
     </div>
 
-    <footer class="footer"> 
-        <div class="container2">
-            <div class="row">
-                <div class="terminos">
-                    <div class="fot">
-                        <table style="margin: auto;" class="tabla1" >
-                                <td style="width: 300px;" class="td1">INFORMACIÓN <br><br><a href="">Términos y condiciones</a> <br><a href="">Nuestra Empresa</a> <br><a href="">Medios de Pagos</a></td>
-                                <td style="width: 360px;" class="td1">CONTACTOS <br><br>"ventas_CENTURYCOMPUTERS" Facebook <br>"CENTURY_COMPUTERS" Instagram <br>999 888 777 WhatsApp</td>
-                                <td style="width: 320px;" class="td1">SIGUENOS <br><img src="img/face.png" style="width: 37px;">&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/insta.png" style="width: 40px;"></td>
-                        </table>
-                    </div>
-                    <div class="copy">
-                        Copyright© Importaciones Century Computers. Todos los derechos reservados
-                    </div>
-                </div>
-                </div>
+    <a href="Login.html"><button class="registro">REGISTRARSE</button></a>
+    <section>
+        <button class="chat-btn"> 
+            <i class="material-icons"> comment </i>
+        </button>
+
+        <div class="chat-popup">
+            <div class="badge">1</div>
+            <div class="chat-area">
+             <div class="income-msg">
+                 <img src="imagenes/2532682.png" class="avatar" alt="">
+                 <span class="msg">Hola, ofrécenos tu número de teléfono y uno de nuestros asistentes se contactará contigo</span>
+             </div>
+            </div>
+
+            <div class="input-area">
+                <input class="input2" type="text">
+                <button id="emoji-btn"> &#127773;</button>
+                <button class="submit"> <i class="material-icons"> send</i></button>
             </div>
         </div>
-    </footer>
-    
-    <script src="js/carrito.js"></script>
-    <script src="js/pedido.js"></script>
-
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/@joeattardi/emoji-button@3.1.1/dist/index.min.js"></script>
+    <script src="js/Chatbot-javaS.js"></script>
 </body>
 </html>

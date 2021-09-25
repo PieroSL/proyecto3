@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Css/PC-style.css">
+    <link rel="stylesheet" href="Css/chatbot-style.css">
+    <script src="js/Compra-JavaS.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jockey+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css">
+<style>
+    body{
+        background-image: url(imagenes/fondo6.png);
+    }
+    .social-icon{
+        background-image: url(imagenes/FacebookBlanco.png);
+    }
+    .social-icon:nth-of-type(2){
+        background-image: url(imagenes/InstagramBlanco.png);
+    }
+    .social-icon:nth-of-type(3){
+        background-image: url(imagenes/TwitterBlanco.png);
+    }
+    .social-icon:nth-of-type(4){
+        background-image: url(imagenes/LinkedinBlanco.png);
+    }  
+</style>
+</head>
+<body style="background-image: url(imagenes/fondo6.png);background-size: 100%;">
+    <div class="page-nav">
+    <h1 id="h6">JUEGOS PC</h1>
+    <div id="menu">
+        <ul class="menu1">
+            <li class="menu-item"><a href="PS4PS5.html">PS4/PS5</a></li>
+            <li class="menu-item"><a href="XBOX.html">Xbox360/SeriesX</a></li>
+            <li class="menu-item"><a href="Reclamaciones.html">Reclamaciones</a></li>
+            <li class="cta"><a href="index.html">Inicio</a></li>
+        </ul>
+    </div>
+    <button id="checkout" class="button-checkout" onclick="pay()">PAGAR</button>
+    </div>
+    <div class="page-content">
+        <div class="product-container">
+            <h3>DESTINY 2</h3>
+            <img src="imagenes/destiny_2.jpg" />
+            <h1>$80</h1>
+            <button class="button-add" onclick="add('destiny 2.gif', 70)">AGREGAR</button>
+        </div>
+
+        <div class="product-container">
+            <h3>DOOM ETERNAL</h3>
+            <img class="santi" src="imagenes/DOOM.jpg" />
+            <h1>$90</h1>
+            <button class="button-add" onclick="add('DOOM.jpg', 70)">AGREGAR</button>
+        </div>
+
+        <div class="product-container">
+            <h3>FALL GUYS</h3>
+            <img src="imagenes/fall_guys.jpg" />
+            <h1>$60</h1>
+            <button class="button-add" onclick="add('fall guys.jpg', 70)">AGREGAR</button>
+        </div>
+
+        <div class="product-container">
+            <h3>MOUNT & BLADEII</h3>
+            <img src="imagenes/mount.jpg" />
+            <h1>$100</h1>
+            <button class="button-add" onclick="add('mount.jpg', 70)">AGREGAR</button>
+        </div>
+        <div class="product-container">
+            <h3>SIX SIEGE</h3>
+            <img class="santi" src="imagenes/six_siege.jpg" />
+            <h1>$55</h1>
+            <button class="button-add" onclick="add('six siege.jpg', 70)">AGREGAR</button>
+        </div>
+
+        <div class="product-container">
+            <h3>STAR WARS</h3>
+            <img src="imagenes/star_wars.png"/>
+            <h1>$85</h1>
+            <button class="button-add" onclick="add('star wars.gif', 70)">AGREGAR</button>
+        </div>
+    </div>
+
+    <section>
+        <button class="chat-btn"> 
+            <i class="material-icons"> comment </i>
+        </button>
+
+        <div class="chat-popup">
+            <div class="badge">1</div>
+            <div class="chat-area">
+             <div class="income-msg">
+                 <img src="imagenes/2532682.png" class="avatar" alt="">
+                 <span class="msg">Hola, ofrécenos tu número de teléfono y uno de nuestros asistentes se contactará contigo</span>
+             </div>
+            </div>
+
+            <div class="input-area">
+                <input class="input2" type="text">
+                <button id="emoji-btn"> &#127773;</button>
+                <button class="submit"> <i class="material-icons"> send</i></button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-icons-container">
+            <a href="https://www.facebook.com/Game4you-103188148785153" class="social-icon"></a>
+            <a href="https://www.instagram.com/game4u_/" class="social-icon"></a>
+            <a href="" class="social-icon"></a>
+            <a href="" class="social-icon"></a>
+        </div>
+        <ul class="footer-menu-container">
+            <li class="menu-item">Legal</li>
+            <li class="menu-item">Cookies</li>
+            <li class="menu-item">Privacy</li>
+            <li class="menu-item">Shipping</li>
+            <li class="menu-item">Refunds</li>
+        </ul>
+        <span class="copyright">&copy;2021, Game4U. All rights reserved.</span>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/@joeattardi/emoji-button@3.1.1/dist/index.min.js"></script>
+<script src="js/Chatbot-javaS.js"></script>
+</body>
+</html>

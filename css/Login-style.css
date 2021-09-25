@@ -1,0 +1,62 @@
+body{
+    overflow: hidden;
+    height: 100vh;
+}
+.registro{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background:#222222;
+    padding: 28px;
+    border-radius: 7px;
+    font-family: "calibri";
+    color: white;
+    box-shadow: 7px 13px 30px rgb(0, 0, 0);
+}
+.control{
+    width: 380px;
+    background:#222222 ;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom:10px;
+    border: 3px solid rgba(137, 43, 226, 0.281);
+    font-family: "calibri";
+    font-size: 15px;
+    color: rgb(154, 82, 221);
+    
+}
+.santi47{
+    font-size: 15px;
+    text-align: center;
+}
+.registro a{
+    color: white;
+    text-decoration: none;
+    
+}
+.registro a:hover{
+    color: white;
+    text-decoration: underline;
+
+}
+#buton{
+    width: 100%;
+    padding: 12px;
+    background :rgba(137, 43, 226, 0.281);
+    color: white;
+    margin: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.aaa{
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 22px;
+    font-family:  'Jockey One', sans-serif;
+}
